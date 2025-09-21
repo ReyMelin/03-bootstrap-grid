@@ -1,0 +1,73 @@
+/* Soft neutral backgrounds */
+body {
+  background-color: #f6f5f3;
+  color: #3a3a3a;
+}
+
+.navbar,
+footer,
+.text-center.mb-4 {
+  background-color: #f9f8f6 !important;
+}
+
+.card {
+  background-color: #fffdfa;
+  border: 1px solid #ece7e1;
+  box-shadow: 0 2px 8px rgba(180, 160, 120, 0.07);
+}
+
+/* Warm accent for primary actions */
+.btn-primary {
+  background-color: #e6a370;
+  border-color: #e6a370;
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #d88c4a;
+  border-color: #d88c4a;
+}
+
+/* Warm accent for dark buttons */
+.btn-dark {
+  background-color: #a67c52;
+  border-color: #a67c52;
+}
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: #8c6239;
+  border-color: #8c6239;
+}
+
+/* Card titles and highlights */
+.card-title {
+  color: #a67c52;
+}
+
+/* Navbar brand accent */
+.navbar-brand {
+  color: #a67c52 !important;
+  font-weight: 600;
+}
+
+/* Footer muted text */
+footer {
+  color: #a67c52 !important;
+  border-top: 1px solid #ece7e1;
+}
+
+/* Accent for links in navbar */
+.nav-link {
+  color: #3a3a3a !important;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #e6a370 !important;
+}
+
+/* Optional: soften card images */
+.card-img-top {
+  border-radius: 0.5rem 0.5rem 0 0;
+  object-fit: cover;
+  background: #f6f5f3;
+}
